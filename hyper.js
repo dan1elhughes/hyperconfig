@@ -1,6 +1,7 @@
 const plugins = [
-  "gitrocket",
-  "hyper-material-theme",
+  "hyper-chesterish",
+  "hyper-statusline",
+  "hyper-tabs-enhanced",
   "hyperborder",
   "hypercwd"
 ];
@@ -9,6 +10,9 @@ const pluginConfig = {
   hyperBorder: {
     borderColors: ["#01cdfe", "#ff71ce"],
     borderWidth: "0.5em"
+  },
+  hyperTabs: {
+    trafficButtons: true
   }
 };
 
