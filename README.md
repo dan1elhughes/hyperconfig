@@ -2,6 +2,8 @@
 
 Basic installer for my hyper configuration.
 
+![Screenshot](media/screenshot.png)
+
 ## Usage
 
 Install [Hyper](https://hyper.is/).
