@@ -1,6 +1,5 @@
 const plugins = [
   "hyper-chesterish",
-  "hyper-statusline",
   "hyper-tabs-enhanced",
   "hyperborder",
   "hypercwd"
