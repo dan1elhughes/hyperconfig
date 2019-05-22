@@ -5,6 +5,16 @@ const plugins = [
   "hypercwd"
 ];
 
+const fontFamily = [
+  '"Dank Mono"',
+  '"SFMono-Regular"',
+  "Consolas",
+  '"Liberation Mono"',
+  "Menlo",
+  "Courier",
+  "monospace"
+].join(",");
+
 const pluginConfig = {
   hyperBorder: {
     borderColors: ["#01cdfe", "#ff71ce"],
@@ -19,7 +29,7 @@ module.exports = {
   config: {
     updateChannel: "stable",
     fontSize: 20,
-    fontFamily: '"Dank Mono", monospace',
+    fontFamily,
     fontWeight: "normal",
     fontWeightBold: "bold",
     lineHeight: 1,
